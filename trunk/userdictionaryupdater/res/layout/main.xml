@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:id="@+id/TextView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/msgLoadFile"></TextView>
+<Button android:layout_below="@+id/TextView01" android:layout_height="wrap_content" android:clickable="true" android:layout_width="fill_parent" android:id="@+id/loadDictionary" android:text="Load Dictionary"></Button>
+
+<TextView android:layout_below="@+id/loadDictionary" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/txtUpdateStatus"></TextView>
+<ProgressBar android:layout_below="@+id/txtUpdateStatus" android:layout_height="wrap_content" android:layout_width="fill_parent" android:indeterminate="false" android:id="@+id/pbLoadDictionary" style="@android:style/Widget.ProgressBar.Horizontal"></ProgressBar>
+</RelativeLayout>
