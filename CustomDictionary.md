@@ -1,0 +1,1 @@
+CustomDictionary.txt is the name of the file which contains the words you want to add to your User Dictionary.
